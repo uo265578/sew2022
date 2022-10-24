@@ -1,0 +1,59 @@
+/* 
+    Autor : Santiago Fidalgo
+    UO265578
+    Descripción de la hoja de estilo:
+*/
+
+
+
+body {
+    line-height: 1.8;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas:
+      'header header'
+      'menu main'
+      'footer footer';
+
+}
+
+header{
+    grid-area: header;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    grid-area: menu;
+    float: left;
+    padding-right: 6.25em;
+    padding-bottom: 0.25em;
+}
+
+img {
+    grid-area: main;
+    float: right;
+    padding-left: 0.625em;
+    padding-bottom: 0.3125em;
+}
+
+main {
+    grid-area: main;
+    padding-top: 2.5em;
+    padding-left: 0.3125em;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    align-content: center;
+}
+
+footer {
+    grid-area: footer;
+}
