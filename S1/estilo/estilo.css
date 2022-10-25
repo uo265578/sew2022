@@ -61,14 +61,14 @@ h6 {
 }
 
 td:nth-child(1) {
-    background-color: #DB6D6D;
-    color: #ffffff;
+    background-color: #003576;
+    color: #FFFF;
     font-weight: 700;
 }
 
 th {
-    background-color: #DB6D6D;
-    color: #ffffff;
+    background-color: #003576;
+    color: #FFFF;
     font-weight: 700;
 }
 
