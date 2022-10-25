@@ -62,13 +62,13 @@ h6 {
 }
 /* Especifidad = 011 */
 td:nth-child(1) {
-    background-color: #003576;
+    background-color: #5F0000;
     color: #FFFF;
     font-weight: 700;
 }
 /* Especifidad = 001 */
 th {
-    background-color: #003576;
+    background-color: #5F0000;
     color: #FFFF;
     font-weight: 700;
 }
