@@ -29,7 +29,7 @@ h2 {
 }
 
 html {
-    background-color: rgba(9, 177, 189, 0.7);
+    background-color: #09B1BD;
 }
 
 nav {
@@ -61,13 +61,13 @@ h6 {
 }
 
 td:nth-child(1) {
-    background-color: #FF5733;
+    background-color: #DB6D6D;
     color: #ffffff;
     font-weight: 700;
 }
 
 th {
-    background-color: #FF5733;
+    background-color: #DB6D6D;
     color: #ffffff;
     font-weight: 700;
 }
