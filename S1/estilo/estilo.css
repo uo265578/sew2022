@@ -9,12 +9,12 @@ body {
     font-family: Tahoma, sans-serif;
     font-size: 1em;
     font-weight: 400;
-    color: #000000;
+    color: #000;
+    background-color: #555218;
 }
 /* Especifidad = 001 */
-h1 {
-    background-color: #0F0505;
-    color: #FFFF;
+header {
+    background-color: #B8D059;;
     text-transform: uppercase;
     padding: 6.25em 0em;
 }
@@ -22,15 +22,12 @@ h1 {
 h2 {
     text-decoration: underline;
     font-family: Arial, Helvetica, serif;
-    color: #000000;
+    background-color: #B8D059;;
     /*
         El background color se hereda de body 
     */
 }
-/* Especifidad = 001 */
-html {
-    background-color: #09B1BD;
-}
+
 /* Especifidad = 001 */
 nav {
     font-family: Verdana, serif;
@@ -39,15 +36,14 @@ nav {
 ul {
     border-width: 0.5em;
     border-radius: 2.5em;
-    background-color: #44E934;
 }
 /* Especifidad = 001 */
 a {
-    color: #080000;
+    color: #000;
 }
 /* Especifidad = 001 */
 footer {
-    background-color: #FF5733;
+    background-color: #B8D059;;
 }
 /* Especifidad = 001 */
 h3,
@@ -57,18 +53,15 @@ h6 {
     text-decoration: underline;
     font-family: Arial, Helvetica, serif;
     font-style: italic;
-    color: #000000;
+    background-color: #B8D059;;
 }
 /* Especifidad = 011 */
 td:nth-child(1) {
-    background-color: #5F0000;
-    color: #FFFF;
     font-weight: 700;
 }
 /* Especifidad = 001 */
 th {
-    background-color: #003576;
-    color: #FFFF;
+    background-color: #B8D059;;
     font-weight: 700;
 }
 /* Especifidad = 001 */
