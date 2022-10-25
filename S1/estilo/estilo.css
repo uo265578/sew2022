@@ -14,8 +14,8 @@ body {
 }
 /* Especifidad = 001 */
 h1 {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #0edb41;
+    background-color: #0F0505;
+    color: #FFFF;
     text-transform: uppercase;
     padding: 6.25em 0em;
 }
